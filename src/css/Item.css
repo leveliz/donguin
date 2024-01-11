@@ -1,0 +1,17 @@
+.expense{
+    background-color: #f8d7da;
+    border-right: 5px solid #eb3648;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    color: #eb3648;
+}
+
+.income{
+    background-color: #d4edda;
+    border-right: 5px solid #2ccc2c;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    color: #2ccc2c;
+}

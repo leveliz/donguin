@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&family=K2D:wght@300&display=swap');
+
+*{
+  box-sizing: border-box;
+  font-family: 'Itim', cursive;
+}
+
+body{
+  background: #f7f7f7;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.container{
+  margin: 30px auto;
+  width: 350px;
+}
+
+.horizontal-menu{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background: #333;
+  text-align: center;
+}
+
+.horizontal-menu li{
+  display: inline-block;
+}
+.horizontal-menu a{
+  display: block;
+  padding: 16px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.horizontal-menu a:hover{
+  background: #777;
+  color: #fff;
+}
